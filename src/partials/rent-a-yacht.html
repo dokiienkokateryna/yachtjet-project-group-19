@@ -2,14 +2,15 @@
     <div class="container">
         <form class="rent__form">
             <h2 class="rent__title">Rent a yacht now</h2>
-            <input type="text" name="user-name" placeholder="Full Name" pattern="[A-Za-z]{1,}" title="Required letters only" required>
-            <input type="email" name="user-email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Incorrect email" required>
-            <input type="tel" name="user-number" placeholder="Phone Number" pattern="[+380]+[0-9]{9}" required>
-            <textarea name="comment" placeholder="Comments"></textarea>
-            <button type="submit">Send</button>
+            <input type="text" name="user-name" placeholder="Full Name" class="rent__input" autocomplete="off" pattern="[A-Za-z]{1,}" title="Required letters only" required>
+            <input type="email" name="user-email" placeholder="Email" class="rent__input" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Incorrect email" required>
+            <input type="tel" name="user-number" placeholder="Phone Number" class="rent__input" autocomplete="off" pattern="\+380\d{9}" title="Please enter the phone number in the format +380XXXXXXXXX" minlength="13" maxlength="13" required>
+            <textarea name="comment" placeholder="Comments" class="rent__textarea"></textarea>
+            <button type="submit" class="rent__send-btn">Send</button>
         </form>
         <div class="rent__img-wrapper">
             <img
+                class="rent__img"
                 srcset="./img/rent-a-yacht/yacht.jpg 1x, ./img/rent-a-yacht/yacht2x.jpg 2x"
                 src="./img/rent-a-yacht/yacht.jpg" 
                 alt="Beautiful yacht on the lake"
