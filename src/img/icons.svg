@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-close-btn" viewBox="0 0 32 32">
+      <path fill="#055545" d="M32 3.7 28.3 0 16 12.3 3.7 0 0 3.7 12.3 16 0 28.3 3.7 32 16 19.7 28.3 32l3.7-3.7L19.7 16 32 3.7z" style="fill:var(--color1, #055545)"/>
+    </symbol>
+    <symbol id="icon-fb-dark-green" viewBox="0 0 32 32">
+      <path d="M32 16a16 16 0 1 0-19.2 15.8v-11H9.6V16h3.2v-4c0-3 2.5-5.6 5.6-5.6h4v4.8h-3.2c-.9 0-1.6.8-1.6 1.6V16h4.8V21h-4.8V32A16 16 0 0 0 32 16z"/>
+    </symbol>
+    <symbol id="icon-fb-dark" viewBox="0 0 32 32">
+      <path d="M32 16a16 16 0 1 0-19.2 15.8v-11H9.6V16h3.2v-4c0-3 2.5-5.6 5.6-5.6h4v4.8h-3.2c-.9 0-1.6.8-1.6 1.6V16h4.8V21h-4.8V32A16 16 0 0 0 32 16z"/>
+    </symbol>
+    <symbol id="icon-fb-gray" viewBox="0 0 32 32">
+      <path fill="#fbfbfb" d="M32 16a16 16 0 1 0-19.2 15.8v-11H9.6V16h3.2v-4c0-3 2.5-5.6 5.6-5.6h4v4.8h-3.2c-.9 0-1.6.8-1.6 1.6V16h4.8V21h-4.8V32A16 16 0 0 0 32 16z" opacity=".8" style="fill:var(--color3, #fbfbfb)"/>
+    </symbol>
+    <symbol id="icon-fb-white" viewBox="0 0 32 32">
+      <path fill="#fbfbfb" d="M32 16a16 16 0 1 0-19.2 15.8v-11H9.6V16h3.2v-4c0-3 2.5-5.6 5.6-5.6h4v4.8h-3.2c-.9 0-1.6.8-1.6 1.6V16h4.8V21h-4.8V32A16 16 0 0 0 32 16z" style="fill:var(--color3, #fbfbfb)"/>
+    </symbol>
+    <symbol id="icon-inst-dark-green" viewBox="0 0 32 32">
+      <path d="M21.2 4H9.5c-1.8 0-3.6.7-4.8 2s-2 3-2 4.8v11.7c0 1.8.7 3.6 2 4.8s3 2 4.8 2h11.7a6.8 6.8 0 0 0 6.8-6.8V10.8A6.8 6.8 0 0 0 21.2 4zm-5.9 18.5a5.8 5.8 0 1 1 0-11.7 5.8 5.8 0 0 1 0 11.7zm7.3-11.7a1.5 1.5 0 0 1-1-2.5 1.5 1.5 0 1 1 1 2.5zm-3.4 5.9a3.9 3.9 0 1 1-7.8 0 3.9 3.9 0 0 1 7.8 0z"/>
+    </symbol>
+    <symbol id="icon-inst-dark" viewBox="0 0 32 32">
+      <path d="M23.4 0H8.6A8.6 8.6 0 0 0 0 8.6v14.8A8.6 8.6 0 0 0 8.6 32h14.8a8.6 8.6 0 0 0 8.6-8.6V8.6A8.6 8.6 0 0 0 23.4 0zM16 23.4a7.4 7.4 0 1 1 0-14.8 7.4 7.4 0 0 1 0 14.8zm9.2-14.8a1.8 1.8 0 1 1 0-3.7 1.8 1.8 0 0 1 0 3.7zM21 16a5 5 0 1 1-9.8 0 5 5 0 0 1 9.8 0z"/>
+    </symbol>
+    <symbol id="icon-inst-gray" viewBox="0 0 32 32">
+      <path fill="#fbfbfb" d="M23.4 0H8.6A8.6 8.6 0 0 0 0 8.6v14.8A8.6 8.6 0 0 0 8.6 32h14.8a8.6 8.6 0 0 0 8.6-8.6V8.6A8.6 8.6 0 0 0 23.4 0zM16 23.4a7.4 7.4 0 1 1 0-14.8 7.4 7.4 0 0 1 0 14.8zm9.2-14.8a1.8 1.8 0 1 1 0-3.7 1.8 1.8 0 0 1 0 3.7zM21 16a5 5 0 1 1-9.8 0 5 5 0 0 1 9.8 0z" opacity=".8" style="fill:var(--color3, #fbfbfb)"/>
+    </symbol>
+    <symbol id="icon-inst-white" viewBox="0 0 32 32">
+      <path fill="#fbfbfb" d="M23.4 0H8.6A8.6 8.6 0 0 0 0 8.6v14.8A8.6 8.6 0 0 0 8.6 32h14.8a8.6 8.6 0 0 0 8.6-8.6V8.6A8.6 8.6 0 0 0 23.4 0zM16 23.4a7.4 7.4 0 1 1 0-14.8 7.4 7.4 0 0 1 0 14.8zm9.2-14.8a1.8 1.8 0 1 1 0-3.7 1.8 1.8 0 0 1 0 3.7zM21 16a5 5 0 1 1-9.8 0 5 5 0 0 1 9.8 0z" style="fill:var(--color3, #fbfbfb)"/>
+    </symbol>
+    <symbol id="icon-line" viewBox="0 0 5248 32">
+      <path stroke-width="16" d="M0 16h5248"/>
+    </symbol>
+    <symbol id="icon-open-btn" viewBox="0 0 77 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="8" d="M4.8 27.2H72M4.8 4.8H72"/>
+    </symbol>
+    <symbol id="icon-youtube-dark-green" viewBox="0 0 32 32">
+      <path d="M18.7 15.7 14.9 14c-.3-.2-.6 0-.6.4v3.2c0 .4.3.6.6.4l3.8-1.7c.3-.2.3-.4 0-.6zM16 0a16 16 0 1 0 0 32 16 16 0 0 0 0-32zm0 22.5c-8.2 0-8.3-.7-8.3-6.5s.1-6.5 8.3-6.5c8.2 0 8.3.7 8.3 6.5s-.1 6.5-8.3 6.5z"/>
+    </symbol>
+    <symbol id="icon-youtube-dark" viewBox="0 0 32 32">
+      <path d="M18.7 15.7 14.9 14c-.3-.2-.6 0-.6.4v3.2c0 .4.3.6.6.4l3.8-1.7c.3-.2.3-.4 0-.6zM16 0a16 16 0 1 0 0 32 16 16 0 0 0 0-32zm0 22.5c-8.2 0-8.3-.7-8.3-6.5s.1-6.5 8.3-6.5c8.2 0 8.3.7 8.3 6.5s-.1 6.5-8.3 6.5z"/>
+    </symbol>
+    <symbol id="icon-youtube-gray" viewBox="0 0 32 32">
+      <path fill="#fbfbfb" d="M18.7 15.7 14.9 14c-.3-.2-.6 0-.6.4v3.2c0 .4.3.6.6.4l3.8-1.7c.3-.2.3-.4 0-.6zM16 0a16 16 0 1 0 0 32 16 16 0 0 0 0-32zm0 22.5c-8.2 0-8.3-.7-8.3-6.5s.1-6.5 8.3-6.5c8.2 0 8.3.7 8.3 6.5s-.1 6.5-8.3 6.5z" opacity=".8" style="fill:var(--color3, #fbfbfb)"/>
+    </symbol>
+    <symbol id="icon-youtube-white" viewBox="0 0 32 32">
+      <path fill="#fbfbfb" d="M18.7 15.7 14.9 14c-.3-.2-.6 0-.6.4v3.2c0 .4.3.6.6.4l3.8-1.7c.3-.2.3-.4 0-.6zM16 0a16 16 0 1 0 0 32 16 16 0 0 0 0-32zm0 22.5c-8.2 0-8.3-.7-8.3-6.5s.1-6.5 8.3-6.5c8.2 0 8.3.7 8.3 6.5s-.1 6.5-8.3 6.5z" style="fill:var(--color3, #fbfbfb)"/>
+    </symbol>
+  </defs>
+</svg>
