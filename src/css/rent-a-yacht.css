@@ -187,18 +187,3 @@ body{
         object-position: bottom 0px right -78px;
     }
 }
-
-@media screen and (min-width:1440px) {
-    .rent .container{
-        max-width: 1440px;
-        padding-right: 100px;
-    }
-
-    .rent__img-wrapper{
-        max-width: 768px;
-    }
-
-    .rent__img{
-        object-position: center;
-    }
-}
