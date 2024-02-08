@@ -144,6 +144,7 @@ body{
     }
 
     .rent__textarea{
+        height: 116px;
         font-size: 14px;
         line-height: 1.29;
         margin-bottom: 50px;
@@ -164,5 +165,25 @@ body{
     .rent__img{
         height: 534px;
         object-position: bottom 0px right -64px;
+    }
+}
+
+@media screen and (min-width:1280px){
+    .rent .container{
+        max-width: 1280px;
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-direction: row-reverse;
+        gap: 50px;
+    }
+
+    .rent__img-wrapper{
+        max-width: 658px;
+        height: 536px;
+    }
+
+    .rent__img{
+        height: 536px;
+        object-position: bottom 0px right -78px;
     }
 }
