@@ -1,8 +1,11 @@
 body {
   margin: 0;
+  padding: 0;
+  /* background-color: #0e1823; */
 }
 .hero {
   max-width: 375px;
+  min-width: 320px;
   background-color: #0e1823;
   background-image: url(/img/images/mob-2x-min.png);
   background-repeat: no-repeat;
@@ -57,6 +60,22 @@ body {
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  border-radius: 15px;
+  padding: 14px 32px;
+  width: 141px;
+  height: 46px;
+  background: #fbfbfb;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #1b414b;
 }
 
 /**------------------------------------------*/
@@ -117,6 +136,20 @@ body {
     line-height: 1.1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
+  }
+  .hero-btn:hover,
+  .hero-btn:focus {
+    border-radius: 15px;
+    padding: 16px 40px;
+    width: 179px;
+    height: 52px;
+    background: #fbfbfb;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
   }
 }
 
