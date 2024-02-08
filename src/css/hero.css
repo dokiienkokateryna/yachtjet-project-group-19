@@ -85,7 +85,7 @@ body {
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
-    background-color: black;
+    background-color: #0e1823;
     background-image: url(/img/images/tab-2x-min.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -160,7 +160,7 @@ body {
 @media screen and (min-width: 1280px) {
   .hero {
     max-width: 1280px;
-    background-color: black;
+    background-color: #0e1823;
     background-image: url(/img/images/descktop-2x-min.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -171,6 +171,66 @@ body {
     max-width: 1280px;
     margin-right: 140px;
     margin-left: 140px;
+  }
+  .container-hero {
+    padding-top: 235px;
+    padding-bottom: 215px;
+  }
+  .hero-head {
+    max-width: 1001px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+  }
+  .hero-text {
+    max-width: 597px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.7);
+  }
+  .hero-btn {
+    border-radius: 15px;
+    padding: 16px 40px;
+    width: 179px;
+    height: 52px;
+    background: #1b414b;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+  }
+}
+/**-------------------------------------------*/
+
+/**-------------------1440--------------------*/
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    max-width: 1440px;
+    background-color: #0e1823;
+    background-image: url(/img/images/desktop-1440-2x-min.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin-right: 220px;
+    margin-left: 220px;
   }
   .container-hero {
     padding-top: 235px;
