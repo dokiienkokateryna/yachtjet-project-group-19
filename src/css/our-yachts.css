@@ -1,23 +1,9 @@
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-  }
 
 .our-yachts {
-    max-width: 375px;
     color: #fbfbfb;
     background-color: #0e1823;
     margin: 0 auto;
-    padding: 40px 20px;
     background-color: #0e1823;
     align-items: center;
 } 
@@ -29,7 +15,6 @@
    flex-direction: column;
 }
  
-
 .ouryachts-title {
     font-weight: 500;
     font-size: 28px;
@@ -135,9 +120,9 @@
 }
 
 @media screen and (min-width:768px) {
-    .our-yachts {
+    /* .our-yachts {
       max-width: 768px;
-    }
+    } */
 
     .ouryachts-item {
         height: 508px;
@@ -175,9 +160,9 @@
 
 
 @media screen and (min-width:1280px) {
-    .our-yachts {
+    /* .our-yachts {
       max-width: 1280px;
-    }
+    } */
 
 
 
