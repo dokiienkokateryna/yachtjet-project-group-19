@@ -48,7 +48,8 @@ body {
 .hero-btn {
   display: block;
   margin: 0 auto;
-  border: none;
+  text-align: center;
+  box-sizing: border-box;
   border-radius: 15px;
   padding: 14px 32px;
   width: 141px;
@@ -60,7 +61,6 @@ body {
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  cursor: pointer;
 }
 
 .hero-btn:hover,
