@@ -1,0 +1,240 @@
+
+
+.our-yachts {
+    color: #fbfbfb;
+    background-color: #0e1823;
+    margin: 0 auto;
+} 
+
+.container-our-yachts {
+    padding: 40px 16px;
+}
+ 
+.ouryachts-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-bottom: 40px;
+}
+
+.box-ouryachts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+
+.ouryachts-item {
+    border-radius: 24px;
+    background: #fbfbfb;
+    max-width: 335px;
+}
+
+.our-yachts-picture {
+    padding: 16px;
+    border-radius: 24px;
+    margin: 0 auto;
+}
+
+.our-yachts-picture img {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .arrow:hover, .arrow:focus {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.line {
+    display: block;
+    margin: 16px auto;
+    stroke: #040306;
+    stroke-opacity: 0.1;
+}
+
+.arrow-tittle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1b414b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 147px;
+}
+
+.arrow-tittle-right {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.arrow-content {
+    width: 62px;   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,18;
+    letter-spacing: 0.03em;
+    color: #040306;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 auto;
+    text-transform: uppercase;
+    opacity: 0.4;
+}
+
+.arrow-object {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,18;
+    letter-spacing: 0.03em;
+    color: #040306;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.arrow-list-content {
+    display: flex;
+    gap: 104px;
+}
+
+.arrow-list {
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+}
+
+
+.yacht-rental {
+    margin: 0 auto;
+    font-weight: 500;    
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.02em;
+    color: #fbfbfb;
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    padding: 14px 32px;
+    min-width: 141px;
+    height: 46px; 
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    border-radius: 15px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.yacht-rental:hover, .yacht-rental:focus {
+    color: #1b414b;
+    background: #fbfbfb;
+}
+
+@media screen and (max-width:767px) {
+    .visually-none {
+      display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .ouryachts-item {
+        height: 508px;
+    }
+
+    .ouryachts-title {
+      font-size: 48px;
+      margin: 0 auto;
+      margin-bottom: 75px;
+      max-width: 645px;
+    }
+
+    .box-ouryachts {
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    
+    .our-yacht-img {
+        padding: 16px;
+        border-radius: 24px;
+        width: 304px;
+        height: 268px;
+        margin: 0 auto;
+    }
+
+    .arrow {
+        width: 272px;
+    }
+
+    .yacht-rental {  
+        font-size: 18px;
+        line-height: 1.1;
+        min-width: 179px;
+        height: 52px; 
+      }
+    
+    .yacht-rental:hover, .yacht-rental:focus {
+        color: #1b414b;
+        background: #fbfbfb;
+    }
+
+
+}
+
+@media screen and (max-width:1279px) {
+    .visually-none-dec {
+      display: none;
+    }
+
+}
+
+
+@media screen and (min-width:1280px) {
+    .arrow {
+        width: 270px;
+    }
+
+    .yacht-rental {
+        width: 177px;
+    }
+
+    .ouryachts-title {
+        margin: 0 auto;
+        margin-bottom: 75px;
+        max-width: 713px;
+      }
+  
+
+}
+
+
+@media screen and (min-width: 1440px)  {
+
+    .ouryachts-item {
+        max-width: 392px;
+    }
+
+   
+
+}
