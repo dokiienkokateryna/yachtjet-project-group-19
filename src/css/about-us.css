@@ -1,5 +1,4 @@
 .about-company-section {
-    
     min-width: 320px;
     max-width: 375px;
     padding-left: 20px;
@@ -7,13 +6,6 @@
     padding-bottom: 40px;
     margin: 0 auto;
 }
-
-
-
-.about-company-container {
-    
-} 
-
 .about-company-picture-text-wrapper {
     border-radius: 24px;
     background: #FBFBFB;
@@ -25,7 +17,6 @@
     margin-bottom: 40px;
 
 }
-
 .about-company-title {
     color: #1B414B;
     font-family: Inter;
@@ -34,7 +25,6 @@
     line-height: 1;
     letter-spacing: -0.02em;
 }
-
 .about-company-top-text {
     color: #1B414B;
     font-family: Inter;
@@ -44,7 +34,6 @@
     margin-top: 40px;
     
 }
-
 .about-company-bottom-text {
     color: #040306;
     font-family: Inter;
@@ -56,10 +45,6 @@
     
     opacity: 0.4
 }
-
-.about-section-image {
-   
-}
 @media screen and (min-width: 768px) {
     .about-company-section {
         max-width: 768px;
@@ -67,62 +52,55 @@
         padding-right: 32px;
         padding-bottom: 75px;
 }
-.about-company-picture-text-wrapper {
-    padding-top: 50px;
-
+    .about-company-picture-text-wrapper {
+        padding-top: 50px;
 }
     .about-company-text-wrapper {
         padding-left: 32px;
         padding-right: 136px;
         margin-bottom: 50px;
-    }
-        .about-company-title {
-            font-size: 48px;
-        }
-        .paragraph-wrapper {
-            width: 390px;
-        }
-        .about-company-top-text {
-            font-size: 23px;
-            margin-top: 50px;
-
-            
-        }
+}
+    .about-company-title {
+        font-size: 48px;
+}
+    .paragraph-wrapper {
+        width: 390px;
+}
+    .about-company-top-text {
+        font-size: 23px;
+        margin-top: 50px;   
+}
         .about-company-bottom-text {
-            font-size: 13px;
-            line-height: 1.15;
-            
-        }
+        font-size: 13px;
+        line-height: 1.15;
+}
                 
 }
 @media screen and (min-width: 1280px) {
     .about-company-section {
-            max-width: 1280px;
-            padding-left: 50px;
-            padding-right: 50px;
-            
-        }
+        max-width: 1280px;
+        padding-left: 50px;
+        padding-right: 50px;
+}
     .about-company-text-wrapper {
         display: flex;
         justify-content: space-between;
         padding-left: 50px;
         padding-right: 50px;
         margin-bottom: 100px;
-
-
-    }
-        .about-company-title {
-            width: 537px;
-        }
-        .paragraph-wrapper {
-            width: 354px;
-        }
-        .about-company-top-text{
-            margin-top: 0px;
-        }
-        .about-company-bottom-text {
-            margin-bottom: 0px;
-        }
+}
+    .about-company-title {
+        width: 537px;
+}
+    .paragraph-wrapper {
+        width: 354px;
+}
+    .about-company-top-text{
+        margin-top: 0px;
+}
+    .about-company-bottom-text {
+        margin-bottom: 0px;
+}
 }
 @media screen and (min-width: 1440px) {
     .about-company-section {
