@@ -1,6 +1,7 @@
 
 
 .our-yachts {
+    min-width: 320px;
     color: #fbfbfb;
     background-color: #0e1823;
     margin: 0 auto;
