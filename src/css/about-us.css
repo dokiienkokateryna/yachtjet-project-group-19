@@ -1,12 +1,27 @@
 .about-company-section {
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    background: #0E1823;
+    box-sizing: border-box;
+    min-width: 320px;
+    max-width: 375px;
+    padding-bottom: 40px;
 }
 
-/* .container {}
 
-.about-company-container {} */
+
+.about-company-container {
+    
+} 
+
+.about-company-picture-text-wrapper {
+    border-radius: 24px;
+    background: #FBFBFB;
+    padding-top: 40px;
+}
+.about-company-text-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
 
 .about-company-title {
     color: #1B414B;
@@ -15,7 +30,6 @@
     font-weight: 500;
     line-height: 1;
     letter-spacing: -0.02em;
-
 }
 
 .about-company-top-text {
@@ -36,7 +50,42 @@
     line-height: 1.17;
     letter-spacing: -0.02px;
     margin-top: 20px;
+    margin-bottom: 40px;
     opacity: 0.4
 }
 
-/* .about-section-image {} */
+.about-section-image {
+   
+}
+@media screen and (min-width: 768px) {
+    .about-company-section {
+        max-width: 768px;
+        padding-bottom: 75px;
+}
+.about-company-picture-text-wrapper {
+    padding-top: 50px;
+
+}
+    .about-company-text-wrapper {
+        padding-left: 32px;
+        padding-right: 136px;
+    }
+        .about-company-title {
+            font-size: 48px;
+        }
+        .paragraph-wrapper {
+            width: 390px;
+        }
+        .about-company-top-text {
+            font-size: 23px;
+            margin-top: 50px;
+
+            
+        }
+        .about-company-bottom-text {
+            font-size: 13px;
+            line-height: 1.15;
+            margin-bottom: 50px;
+        }
+                
+}
