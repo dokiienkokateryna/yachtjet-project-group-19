@@ -165,7 +165,9 @@
 
     .ouryachts-title {
       font-size: 48px;
+      margin: 0 auto;
       margin-bottom: 75px;
+      max-width: 645px;
     }
 
     .box-ouryachts {
@@ -217,16 +219,22 @@
         width: 177px;
     }
 
-
+    .ouryachts-title {
+        margin: 0 auto;
+        margin-bottom: 75px;
+        max-width: 713px;
+      }
+  
 
 }
 
 
 @media screen and (min-width: 1440px)  {
 
-    /* .our-yachts {
-    max-width: 1440px;
-    padding: 75px 100px;
-} */
+    .ouryachts-item {
+        max-width: 392px;
+    }
+
+   
 
 }
