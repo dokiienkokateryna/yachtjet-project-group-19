@@ -13,17 +13,12 @@ body {
   background-size: cover;
   margin: 0 auto;
 }
-.container {
+.hero .container {
   max-width: 375px;
   margin-right: 20px;
   margin-left: 20px;
-}
-
-.container-hero {
   padding-top: 198px;
   padding-bottom: 243px;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 .hero-head {
   max-width: 335px;
@@ -61,6 +56,9 @@ body {
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  transition: color 500ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    background-color 500ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    box-shadow 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .hero-btn:hover,
@@ -76,6 +74,7 @@ body {
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #1b414b;
+  box-shadow: 0px 0px 22px 19px rgba(69, 141, 158, 1);
 }
 
 /**------------------------------------------*/
@@ -92,7 +91,7 @@ body {
     background-size: cover;
   }
 
-  .container {
+  .hero .container {
     max-width: 768px;
     margin-right: 32px;
     margin-left: 32px;
@@ -167,7 +166,7 @@ body {
     background-size: cover;
   }
 
-  .container {
+  .hero .container {
     max-width: 1280px;
     margin-right: 140px;
     margin-left: 140px;
@@ -227,7 +226,7 @@ body {
     background-size: cover;
   }
 
-  .container {
+  .hero .container {
     max-width: 1440px;
     margin-right: 220px;
     margin-left: 220px;
