@@ -13,12 +13,11 @@ body {
   background-size: cover;
   margin: 0 auto;
 }
-/* .container {
+.container {
   max-width: 375px;
   margin-right: 20px;
   margin-left: 20px;
-} */
-
+}
 .container-hero {
   padding-top: 198px;
   padding-bottom: 243px;
@@ -92,11 +91,11 @@ body {
     background-size: cover;
   }
 
-  /* .container {
+  .container {
     max-width: 768px;
     margin-right: 32px;
     margin-left: 32px;
-  } */
+  }
   .container-hero {
     padding-top: 280px;
     padding-bottom: 282px;
@@ -167,11 +166,11 @@ body {
     background-size: cover;
   }
 
-  /* .container {
+  .container {
     max-width: 1280px;
     margin-right: 140px;
     margin-left: 140px;
-  } */
+  }
   .container-hero {
     padding-top: 235px;
     padding-bottom: 215px;
@@ -227,11 +226,11 @@ body {
     background-size: cover;
   }
 
-  /* .container {
+  .container {
     max-width: 1440px;
     margin-right: 220px;
     margin-left: 220px;
-  } */
+  }
   .container-hero {
     padding-top: 235px;
     padding-bottom: 215px;
