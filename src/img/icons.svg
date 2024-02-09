@@ -31,7 +31,7 @@
       <path stroke-width="16" d="M0 16h5248"/>
     </symbol>
     <symbol id="icon-open-btn" viewBox="0 0 77 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="8" d="M4.8 27.2H72M4.8 4.8H72"/>
+      <path  stroke-linecap="round" stroke-linejoin="round" stroke-width="8" d="M4.8 27.2H72M4.8 4.8H72"/>
     </symbol>
     <symbol id="icon-youtube-dark-green" viewBox="0 0 32 32">
       <path d="M18.7 15.7 14.9 14c-.3-.2-.6 0-.6.4v3.2c0 .4.3.6.6.4l3.8-1.7c.3-.2.3-.4 0-.6zM16 0a16 16 0 1 0 0 32 16 16 0 0 0 0-32zm0 22.5c-8.2 0-8.3-.7-8.3-6.5s.1-6.5 8.3-6.5c8.2 0 8.3.7 8.3 6.5s-.1 6.5-8.3 6.5z"/>
