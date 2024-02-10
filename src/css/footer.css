@@ -122,6 +122,10 @@ ul {
     align-items: center;
 }
 
+.icon-link:hover {
+    color: #FBFBFBCC;
+}
+
 
 .f-text {
     max-width: 699px;
