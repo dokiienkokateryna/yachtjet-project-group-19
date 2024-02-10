@@ -15,7 +15,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 375px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -26,7 +26,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1449px;
+    max-width: 1440px;
   }
 }
 
