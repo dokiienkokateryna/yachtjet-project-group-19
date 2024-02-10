@@ -5,45 +5,44 @@
     padding-right: 20px;
     padding-bottom: 40px;
     margin: 0 auto;
+    margin-top: -58px;
 }
 .about-company-picture-text-wrapper {
-    border-radius: 24px;
-    background: #FBFBFB;
-    padding-top: 40px;
+  border-radius: 24px;
+  background: #fbfbfb;
+  padding-top: 40px;
 }
 .about-company-text-wrapper {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 40px;
-
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
 }
 .about-company-title {
-    color: #1B414B;
-    font-family: Inter;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -0.02em;
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
 }
 .about-company-top-text {
-    color: #1B414B;
-    font-family: Inter;
-    font-size: 18px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    margin-top: 40px;
-    
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-top: 40px;
 }
 .about-company-bottom-text {
-    color: #040306;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: -0.02px;
-    margin-top: 20px;
-    
-    opacity: 0.4
+  color: #040306;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02px;
+  margin-top: 20px;
+
+  opacity: 0.4;
 }
 @media screen and (min-width: 768px) {
     .about-company-section {
@@ -51,6 +50,7 @@
         padding-left: 32px;
         padding-right: 32px;
         padding-bottom: 75px;
+        margin-top: -66px;
 }
     .about-company-picture-text-wrapper {
         padding-top: 50px;
@@ -81,6 +81,7 @@
         max-width: 1280px;
         padding-left: 50px;
         padding-right: 50px;
+        margin-top: -34px;
 }
     .about-company-text-wrapper {
         display: flex;
@@ -103,7 +104,7 @@
 }
 }
 @media screen and (min-width: 1440px) {
-    .about-company-section {
+  .about-company-section {
     max-width: 1440px;
-    }
+  }
 }
