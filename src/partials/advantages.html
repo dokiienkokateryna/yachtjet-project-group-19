@@ -1,6 +1,6 @@
 <section class="advantages">
   <div class="container">
-    <ul class="advantages-list">
+    <ol class="advantages-list">
       <li class="advantages-item">
         <h2 class="number-subtitle">01</h2>
         <div class="line"></div>
@@ -43,9 +43,16 @@
           outdoor atmosphere.
         </p>
       </li>
-    </ul>
+    </ol>
     <div class="section-img">
       <picture>
+        <source
+          srcset="
+            ./img/advantages/desktopB-min.jpg   1x,
+            ./img/advantages/desktopBx2-min.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
         <source
           srcset="
             ./img/advantages/desktop-min.jpg   1x,
@@ -67,6 +74,7 @@
           "
           media="(min-width: 320px)"
         />
+
         <img
           src="./img/advantages/desktop-min.jpg"
           alt="Ship"
