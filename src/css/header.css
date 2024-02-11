@@ -148,10 +148,10 @@
     color: #fbfbfb;
 }
 
-.button-text-mob:hover,
+/* .button-text-mob:hover,
 .button-text-mob:focus {
     background-color: #1b414b;
-}
+} */
 
 .header-link-social-mob {
     display: flex;
@@ -197,7 +197,7 @@
         align-items: center;
         border-radius: 8px;
         width: 91px;
-        height: 40px;
+        height: 41px;
         background-color: rgba(27, 65, 75, 0.5);
         font-weight: 400;
         font-size: 9px;
@@ -206,10 +206,10 @@
         color: #fbfbfb;
     }
 
-    .button-text:hover,
+    /* .button-text:hover,
     .button-text:focus {
         background-color: #1B414B;
-    }
+    } */
 
     .logo {
         font-weight: 500;
