@@ -7,29 +7,6 @@ body {
   background-color: #0e1823;
 }
 
-.container {
-  max-width: 375px;
-  min-width: 320px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
 h1,
 h2,
 h3,
@@ -40,8 +17,7 @@ p {
   margin: 0;
 }
 
-ul,
-ol {
+ul{
   margin: 0;
   padding: 0;
   list-style: none;
