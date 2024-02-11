@@ -37,10 +37,41 @@
 }
 
 .ouryachts-item {
+  position: relative;
   border-radius: 24px;
   background: #fbfbfb;
   max-width: 335px;
   width: 100%;
+}
+
+.card__front{
+  position: relative;
+  transition: 2s;
+  backface-visibility: hidden;
+}
+
+.card__back{
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 2s;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfb;
+  height: 508px;
+  border-radius: 24px;
+  width: 100%;
+}
+
+.ouryachts-item.is-flipped .card__front {
+  transform: rotateY(180deg);
+}
+.ouryachts-item.is-flipped .card__back {
+  transform: rotateY(360deg);
 }
 
 .our-yachts-picture-wrapper{
@@ -51,11 +82,6 @@
   border-radius: 24px;
   margin: 0 auto;
 }
-
-/* .our-yachts-picture img {
-  width: calc(100% - 32px);
-  margin: 0 auto;
-} */
 
 .arrow {
   position: relative;
@@ -78,13 +104,6 @@
   bottom: -16px;
   background-color: rgba(4, 3, 6, 0.1);
 }
-
-/* .line {
-  display: block;
-  margin: 16px auto;
-  stroke: #040306;
-  stroke-opacity: 0.1;
-} */
 
 .arrow-tittle {
   font-weight: 500;
@@ -302,5 +321,150 @@
   }
   .arrow {
     width: 328px;
+  }
+}
+
+.rent-price {
+  max-width: 334px;
+  height: 478px;
+  border-radius: 24px;
+  background: #fbfbfb;
+  padding: 43px 11px;
+}
+
+.container-rent-yachts {
+  width: 312px;
+  height: 392px;
+  margin: 0 auto;
+}
+
+.rent-price-head {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 49px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.name-yacht {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #3f7380;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.rent-pric-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #000;
+  opacity: 0.4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.list-yachts {
+  margin-bottom: 16px;
+}
+
+.name-yahts-list {
+  width: 292px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 11px;
+}
+
+.name-yachts-text-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+}
+
+.name-yachts-text-2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.opis {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #3f7380;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.container-opis {
+  width: 310px;
+}
+
+.opis-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #000;
+  opacity: 0.4;
+  margin-bottom: 18px;
+}
+
+/*-----------------TABLET-------------------*/
+@media screen and (min-width: 768px) {
+  .rent-price {
+    max-width: 336px;
+    height: 508px;
+    padding: 58px 12px;
+  }
+}
+
+/*-----------------1280-------------------*/
+@media screen and (min-width: 1280px) {
+  .rent-price {
+    max-width: 377px;
+    height: 508px;
+    padding: 58px 12px;
+  }
+  .container-rent-yachts {
+    width: 313px;
+  }
+}
+
+/*-----------------1440-------------------*/
+@media screen and (min-width: 1440px) {
+  .rent-price {
+    max-width: 392px;
+    height: 508px;
+    padding: 47px 29px;
+  }
+  .container-rent-yachts {
+    width: 334px;
   }
 }
