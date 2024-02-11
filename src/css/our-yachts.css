@@ -59,12 +59,14 @@
   backface-visibility: hidden;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  /* justify-content: center;
+  align-items: center; */
   background-color: #fbfbfb;
-  height: 508px;
   border-radius: 24px;
   width: 100%;
+  height: 100%;
 }
 
 .ouryachts-item.is-flipped .card__front {
@@ -333,8 +335,8 @@
 }
 
 .container-rent-yachts {
-  width: 312px;
-  height: 392px;
+  max-width: 312px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -376,11 +378,12 @@
 }
 
 .list-yachts {
-  margin-bottom: 16px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .name-yahts-list {
-  width: 292px;
+  max-width: 292px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -420,7 +423,7 @@
 }
 
 .container-opis {
-  width: 310px;
+  max-width: 310px;
 }
 
 .opis-text {
@@ -436,34 +439,15 @@
   margin-bottom: 18px;
 }
 
-/*-----------------TABLET-------------------*/
-@media screen and (min-width: 768px) {
-  .rent-price {
-    max-width: 336px;
-    height: 508px;
-    padding: 58px 12px;
-  }
-}
-
 /*-----------------1280-------------------*/
 @media screen and (min-width: 1280px) {
-  .rent-price {
-    max-width: 377px;
-    height: 508px;
-    padding: 58px 12px;
-  }
   .container-rent-yachts {
-    width: 313px;
+    max-width: 313px;
   }
 }
 
 /*-----------------1440-------------------*/
 @media screen and (min-width: 1440px) {
-  .rent-price {
-    max-width: 392px;
-    height: 508px;
-    padding: 47px 29px;
-  }
   .container-rent-yachts {
     width: 334px;
   }
