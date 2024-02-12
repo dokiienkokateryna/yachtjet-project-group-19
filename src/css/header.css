@@ -148,7 +148,7 @@
     height: 100%;
     background-color: rgba(27, 65, 75, 0.5);
     font-weight: 400;
-    font-size: 9px;
+    font-size: 10px;
     line-height: 4;
     text-transform: uppercase;
     text-align: center;
@@ -156,21 +156,11 @@
     color: #fbfbfb;
 }
 
-/* .button-text-mob:hover,
-.button-text-mob:focus {
-    background-color: #1b414b;
-} */
-
 .header-link-social-mob {
     display: flex;
     margin: 0 auto;
     gap: 8px;
 }
-
-/* .header-list-social-mob:hover,
-.header-list-social-mob:focus {
-    fill: rgba(251, 251, 251, 0.8);
-} */
 
 .header-social-icon-mob {
     color: #fbfbfb;
