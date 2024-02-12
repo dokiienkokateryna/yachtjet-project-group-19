@@ -7,11 +7,18 @@ body {
   max-width: 375px;
   min-width: 320px;
   background-color: #0e1823;
-  background-image: url(/img/images/mob-2x-min.png);
+  background-image: url(/img/images/mob-2x-min.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(/img/images/mob-2x-min.jpeg);
+  }
 }
 .hero .container {
   max-width: 375px;
@@ -78,15 +85,21 @@ body {
 /**------------------------------------------*/
 
 /**-------------------768--------------------*/
-
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
     background-color: #0e1823;
-    background-image: url(/img/images/tab-2x-min.png);
+    background-image: url(/img/images/tab-2x-min.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero {
+      background-image: url(/img/images/tab-2x-min.jpeg);
+    }
   }
 
   .hero .container {
@@ -138,12 +151,18 @@ body {
   .hero {
     max-width: 1280px;
     background-color: #0e1823;
-    background-image: url(/img/images/descktop-2x-min.png);
+    background-image: url(/img/images/descktop-1280-2x-min.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero {
+      background-image: url(/img/images/descktop-1280-2x-min.jpeg);
+    }
+  }
   .hero .container {
     max-width: 1280px;
     margin-right: 140px;
@@ -184,12 +203,18 @@ body {
   .hero {
     max-width: 1440px;
     background-color: #0e1823;
-    background-image: url(/img/images/desktop-1440-2x-min.png);
+    background-image: url(/img/images/descktop-1440-2x-min.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero {
+      background-image: url(/img/images/descktop-1440-2x-min.jpeg);
+    }
+  }
   .hero .container {
     max-width: 1440px;
     margin-right: 220px;
